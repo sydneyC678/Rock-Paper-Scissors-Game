@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors!</title>
+    <link rel="stylesheet" type="text/css" href="project.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Sigmar+One"
+    />
+    <style>
+      body {
+        background-image: url("images/background.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100vh;
+        height: 100vh;
+        font-family: "Sigmar One";
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <button id="startgame" class="startgame">Start Game</button>
+      <div id="gamebody" class="gamebody">
+        <h1>Welcome to Sydney's Rock Paper Scissors Game!</h1>
+        <div class="scoreboard">
+          <div class="player">
+            <img src="images/girly.webp" class="logo" />
+            <h2>Player</h2>
+
+            <div class="scores">
+              <h2 id="playerscore">Score: 0</h2>
+            </div>
+
+            <div class="buttons">
+              <button id="rock">Rock<img src="images/rock.png" /></button>
+              <button id="paper">Paper<img src="images/paper.png" /></button>
+              <button id="scissors">
+                Scissors<img src="images/scissors.png" />
+              </button>
+            </div>
+          </div>
+          <div class="computer">
+            <img src="images/robo.webp" class="logo" />
+            <h2>Computer</h2>
+            <div class="scores">
+              <h2 id="computerscore">Score: 0</h2>
+            </div>
+
+            <div class="buttons">
+              <button id="rock2">Rock<img src="images/rock.png" /></button>
+              <button id="paper2">Paper<img src="images/paper.png" /></button>
+              <button id="scissors2">
+                Scissors<img src="images/scissors.png" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <h1 id="roundinfo">Round Winner:</h1>
+        <!--Creating 3 buttons, one for each selection-->
+      </div>
+      <div class="result">
+        <div class="image1" id="image1">
+          <img src="images/girly.webp" class="logo" />
+        </div>
+        <div class="image2" id="image2">
+          <img src="images/robo.webp" class="logo" />
+        </div>
+        <h1 id="finalResult"></h1>
+        <button id="playagain" class="playagain">Play Again?</button>
+      </div>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>

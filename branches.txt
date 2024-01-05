@@ -1,0 +1,8 @@
+New branches -> git branch <branch_name>
+Change to new branch -> git checkout <branch_name>
+See what branch you're in -> git branch
+Ready to make commits -> git merge <branch_name>
+Deleting a branch -> git branch -d <branch_name>
+
+Pushing new branch to remote repo -> git push origin <branch_name>
+On Github, select new branch in the dropdown

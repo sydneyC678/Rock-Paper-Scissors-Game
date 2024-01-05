@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.main {
+  text-align: center;
+  align-items: center;
+  color: rgba(68, 22, 128, 0.454);
+}
+.startgame,
+.playagain {
+  text-transform: uppercase;
+  font-weight: 700;
+  min-width: 200px;
+  height: 50px;
+  background-color: rgba(255, 192, 203, 0.692);
+  color: rgba(68, 22, 128, 0.454);
+  border-radius: 20px;
+  box-shadow: rgba(68, 22, 128, 0.24) 0 2px 2px,
+    rgba(179, 132, 201, 0.4) 0 10px 20px;
+  border-style: none;
+  border-bottom: 2px solid;
+  border-right: 1px solid;
+  transition: 0.3s;
+  transform: translate(-1%, -4%);
+  font-size: large;
+  font-family: "Sigmar One";
+}
+.startgame:hover {
+  cursor: pointer;
+  background-color: rgb(234, 176, 233);
+  transition: all 0.1s ease-in;
+  transform: translate(-1%, -1%);
+}
+h1 {
+  font-size: 40px;
+}
+.scoreboard {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: auto;
+}
+.computer {
+  background-color: rgba(255, 192, 203, 0.326);
+  padding: 60px;
+  box-shadow: rgba(68, 22, 128, 0.24) 0 2px 2px,
+    rgba(179, 132, 201, 0.4) 0 10px 20px;
+  border-bottom: 2px solid;
+  border-right: 1px solid;
+  border-radius: 20px;
+}
+.player {
+  background-color: rgba(255, 192, 203, 0.326);
+  padding: 60px;
+  box-shadow: rgba(68, 22, 128, 0.24) 0 2px 2px,
+    rgba(179, 132, 201, 0.4) 0 10px 20px;
+  border-bottom: 2px solid;
+  border-right: 1px solid;
+  border-radius: 20px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.buttons button {
+  text-transform: uppercase;
+  font-weight: 700;
+
+  height: 120px;
+  background-color: rgb(242, 228, 231);
+  color: rgba(68, 22, 128, 0.762);
+
+  box-shadow: rgba(68, 22, 128, 0.24) 0 2px 2px,
+    rgba(179, 132, 201, 0.4) 0 10px 20px;
+  border-style: none;
+  border-bottom: 4px solid;
+  border-right: 2px solid;
+  transition: 0.3s;
+  transform: translate(-1%, -4%);
+  font-size: small;
+  font-family: "Sigmar One";
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  transform: translate(-1%, -1%);
+}
+.buttons img {
+  width: 30px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.result {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.image1,
+.image2 img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

@@ -11,3 +11,6 @@ First to 5 wins!
 <video src = "https://github.com/sydneyC678/Rock-Paper-Scissors-Game/assets/121634300/dd4e573b-8bf6-40f1-9b6c-3c651b36a1a1"/>
 
 
+To Improve:
+- Show what the computer chose via coloring of the buttons
+- Add sound effects

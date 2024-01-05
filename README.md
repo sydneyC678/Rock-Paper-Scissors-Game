@@ -1,5 +1,5 @@
 <h1>Rock Paper Scissors Game!</h1>
-## It's YOU vs GENERATOR COMPUTER
+<h2>It's YOU vs GENERATOR COMPUTER</h2> 
 
 Used: Javascript, HTML, CSS
 
